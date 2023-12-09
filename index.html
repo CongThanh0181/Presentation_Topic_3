@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPIC 3</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>DEMO TOPIC 3</h1>
+    </header>
+   <main>
+        <div class="box image">
+            <img src="./media/images/image.png" alt="ảnh songoku">
+            <h3>ảnh demo</h3>
+        </div>
+        
+        <div class="box video">
+            <video controls autoplay>
+                <source src="./media/videos/video.mp4">
+            </video>
+            <h3>video demo</h3>
+        </div>
+
+        <div class="box audio">
+            <audio controls>
+                <source src="./media/musics/audio.mp3">
+            </audio>
+            <h3>audio demo</h3>
+        </div>
+
+   </main>
+
+
+
+
+   <script>
+        let videoElement = document.querySelector('video');
+        let audioElement = document.querySelector('audio');
+        videoElement.onended = function() {
+            audioElement.play();
+        }
+   </script>
+</body>
+</html>

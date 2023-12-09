@@ -1,0 +1,31 @@
+/* common */
+.box {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* header */
+h1 {
+    text-align: center;
+}
+
+
+/* image */
+img{
+    width: 100%;
+    vertical-align: baseline;
+}
+
+p {
+    text-align: center;
+}
+
+/* video */
+video {
+    width: 100%;
+}
+
+/* audio */
+audio {
+    width: 100%;
+}
