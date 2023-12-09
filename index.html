@@ -39,6 +39,9 @@
    <script>
         let videoElement = document.querySelector('video');
         let audioElement = document.querySelector('audio');
+        setTimeout(function(){
+            videoElement.play();
+        }, 1000);
         videoElement.onended = function() {
             audioElement.play();
         }
