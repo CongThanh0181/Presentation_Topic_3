@@ -1,14 +1,23 @@
 /* common */
 .box {
-    width: 50%;
+    width: 70%;
     margin: 50px auto;
+    border: 1px solid black;
+    padding: 20px;
 }
 
-/* header */
-h1 {
+.flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+h1, h3, p {
     text-align: center;
 }
 
+/* header */
 
 /* image */
 img{
@@ -16,8 +25,12 @@ img{
     vertical-align: baseline;
 }
 
-p {
-    text-align: center;
+.background-img {
+    background-image: url(./media/images/laptop-smartphone-device-mockup_75891-2085.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    overflow: auto;
 }
 
 /* video */

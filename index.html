@@ -12,9 +12,44 @@
         <h1>DEMO TOPIC 3</h1>
     </header>
    <main>
-        <div class="box image">
-            <img src="./media/images/image.png" alt="ảnh songoku">
-            <h3>ảnh demo</h3>
+        <div class="flex">
+            <div class="box image">
+                <img src="./media/images/image.png" alt="ảnh songoku">
+                <h3>ảnh demo</h3>
+            </div>
+    
+            <div class="box background-img">
+                <h3>Background image</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore autem rerum eligendi sed quod. Non, voluptatum? Itaque cupiditate quidem dicta dolor quisquam commodi est eveniet officiis, aliquid, impedit facilis. Iusto.
+                Nesciunt repellat laborum aperiam, veniam quisquam voluptate voluptatibus autem quasi et reiciendis aliquam obcaecati quod asperiores nisi velit magnam eligendi corporis voluptatem iste vero optio ad delectus iusto rem. Porro?
+                Nobis sit minus saepe. Enim iusto neque incidunt itaque soluta quidem deserunt, in ad, ipsum architecto, iure eius magni ipsam. Non dicta consectetur vero animi quia mollitia dolores, eos vitae!
+                Asperiores iusto incidunt accusamus ratione, maxime est nam fugiat aspernatur dolore alias, officiis eaque, odio enim facilis quibusdam possimus natus totam eveniet ducimus amet itaque consequatur ea? Reiciendis, beatae ducimus.
+                Qui voluptatibus veniam pariatur ipsum illum blanditiis officiis iste. Modi rem harum, dicta iste voluptatibus fugit quam ut iusto facere sapiente, voluptate nobis illum laudantium accusamus veritatis labore? Corporis, ad.
+                Veniam iusto eum culpa facere commodi ut. Tempora quas sapiente nobis aut vel sunt, enim earum quod iste ipsa totam voluptatibus, et rerum voluptates corrupti cum beatae repudiandae suscipit eligendi!
+                Architecto suscipit error eos itaque sequi beatae nostrum esse provident, harum repudiandae alias ex voluptatem nam nesciunt quisquam illum voluptatibus corporis. Deserunt, voluptate ullam blanditiis expedita quidem veniam aliquid inventore!
+                Voluptatum ratione, ducimus natus fuga dicta error libero dignissimos dolores perferendis quasi, vel fugiat. Nobis aliquam iure minus, eius consectetur voluptatibus mollitia maiores eligendi eos sint cupiditate aut sapiente inventore.
+                Tenetur eligendi quas officia impedit, ab perspiciatis, exercitationem magnam hic, accusantium incidunt dolorem accusamus nesciunt odio aliquam natus? Deserunt numquam cumque nemo minus rem fugit laborum nostrum, explicabo error animi.
+                Quisquam eos unde quae ad eligendi aspernatur assumenda cumque quibusdam, nobis voluptatum dolorum asperiores dicta vero. Sint dolorum minima natus quibusdam in, quas id illo eum vitae, recusandae, animi minus!
+                Labore quos quaerat iusto exercitationem possimus odit facilis eligendi iste ducimus culpa molestiae, magni id eaque dolor sit reprehenderit qui quisquam beatae, est nisi debitis amet dolore delectus! Tempore, minima.
+                Voluptas repellendus nesciunt corrupti ratione, eaque ut molestiae non fugit suscipit cum ad sed fugiat voluptate ex accusamus voluptatem id ab saepe maxime. Est fugit quo consequuntur, culpa sed animi?
+                In omnis cum culpa. Ratione blanditiis repellat aut ut, possimus quibusdam nostrum. Repudiandae maxime modi, tempore eveniet eaque hic assumenda! Libero ipsa optio sunt dolor distinctio ad praesentium quo officiis?
+                Reiciendis qui ipsam autem eligendi nisi, temporibus dolorum libero, corrupti officia eaque ut minus voluptas odio doloribus delectus labore fuga porro veritatis expedita saepe voluptates rerum illo corporis deleniti? Incidunt.
+                Sed reiciendis porro natus similique consequuntur. Voluptate quasi, porro dolor dolore quibusdam molestiae voluptas necessitatibus minus, quidem dolorem eos eius eveniet quod vel nihil error illo. Aliquid quisquam maxime quia.
+                Cumque repellat accusantium labore ad natus! Similique voluptatibus libero iste odio laudantium quam temporibus sint! Commodi explicabo inventore ab facere molestias soluta architecto obcaecati dignissimos tempora? Libero numquam tempora reprehenderit.
+                Quaerat temporibus delectus aut voluptas. Voluptas doloribus totam dignissimos architecto vitae velit, incidunt maiores sunt, ad blanditiis quas inventore nihil? Deleniti dolores alias eius at, quidem officia nostrum voluptates quasi!
+                Error nulla incidunt cum fugiat officia? Pariatur accusantium iusto ea delectus? Laborum saepe nihil pariatur. Assumenda in eum, nobis harum iusto natus quis, ducimus quaerat vitae cumque obcaecati omnis eius!
+                Sequi quasi cum laborum hic doloremque accusantium? Mollitia quaerat possimus sunt perferendis? Ut ullam quisquam doloremque, exercitationem ea sequi omnis provident laudantium perferendis molestiae officiis nihil ipsam ducimus est consectetur.
+                Autem, ex? Reprehenderit dolorem quidem nemo tenetur velit id vitae, quo aut officiis quibusdam eum commodi vel obcaecati harum qui magnam nobis dolores, nihil blanditiis. Eos totam veniam fugiat ipsa?</p>
+            </div>
+    
+           <div class="box">
+                <picture>
+                    <source media="(min-width:650px)" srcset="./media/images/laptop-smartphone-device-mockup_75891-2085.avif">
+                    <source media="(min-width:465px)" srcset="./media/images/black-screen-smartphone-mockup-design_53876-65977.jpg">
+                    <img src="./media/images/image.png" alt="ảnh songoku">
+                </picture>
+                <h3>ảnh sử dụng thẻ picture</h3>
+           </div>
         </div>
         
         <div class="box video">
@@ -39,9 +74,6 @@
    <script>
         let videoElement = document.querySelector('video');
         let audioElement = document.querySelector('audio');
-        setTimeout(function(){
-            videoElement.play();
-        }, 1000);
         videoElement.onended = function() {
             audioElement.play();
         }
